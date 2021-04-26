@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+
+  <title>PROJEKT</title>
+</head>
+
+<body>
+  <i class="bi bi-bootstrap-fill"></i>
+  <svg id="slikca" xmlns="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" width="72" height="57" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+    <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z" />
+    <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z" />
+  </svg>
+  <h1 id="naslov">Checkout form</h1>
+  <p id="podnaslov">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+  <div id="vozicek" class="col-md-5 col-lg-4 order-md-last">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-primary">Your cart</span>
+      <span class="badge bg-primary rounded-pill">3</span>
+    </h4>
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Product name</h6>
+          <small class="text-muted">Brief description</small>
+        </div>
+        <span class="text-muted">$12</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Second product</h6>
+          <small class="text-muted">Brief description</small>
+        </div>
+        <span class="text-muted">$8</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">Third item</h6>
+          <small class="text-muted">Brief description</small>
+        </div>
+        <span class="text-muted">$5</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between bg-light">
+        <div class="text-success">
+          <h6 class="my-0">Promo code</h6>
+          <small>EXAMPLECODE</small>
+        </div>
+        <span class="text-success">−$5</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between">
+        <span>Total (USD)</span>
+        <strong>$20</strong>
+      </li>
+    </ul>
+
+    <form class="card p-2">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Promo code">
+        <button type="submit" class="btn btn-secondary">Redeem</button>
+      </div>
+    </form>
+  </div>
+  <form>
+    <h1>Billing address</h1>
+    <p>First name</p>
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" />
+          <label class="form-label" for="form6Example1"></label>
+        </div>
+      </div>
+
+      <p>Last name</p>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" />
+          <label class="form-label" for="form6Example2"></label>
+        </div>
+      </div>
+    </div>
+    <p>User name</p>
+
+    <!-- Text input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="form6Example3" class="form-control" />
+      <label class="form-label" for="form6Example3"></label>
+    </div>
+    <p>Email (Optional)</p>
+
+    <!-- Text input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="form6Example4" class="form-control" />
+      <label class="form-label" for="form6Example4"></label>
+    </div>
+    <p>Adress</p>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form6Example5" class="form-control" />
+      <label class="form-label" for="form6Example5"></label>
+    </div>
+    <p>Adress 2 (Optional)</p>
+
+    <!-- Number input -->
+    <div class="form-outline mb-4">
+      <input type="number" id="form6Example6" class="form-control" />
+      <label class="form-label" for="form6Example6"></label>
+    </div>
+
+    <p>Country</p>
+
+    <div class="row g-3">
+      <div class="col-sm-7">
+        <div class="form-outline">
+          <input type="text" id="form10Example1" class="form-control" />
+          <label class="form-label" for="form10Example1"></label>
+        </div>
+      </div>
+
+      <p>State</p>
+
+      <div class="col-sm">
+        <div class="form-outline">
+          <input type="text" id="form10Example2" class="form-control" />
+          <label class="form-label" for="form10Example2"></label>
+        </div>
+      </div>
+
+      <p>Zip</p>
+
+      <div class="col-sm">
+        <div class="form-outline">
+          <input type="text" id="form10Example3" class="form-control" />
+          <label class="form-label" for="form10Example3"></label>
+        </div>
+      </div>
+    </div>
+    <!-- Default checkbox -->
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+      <label class="form-check-label" for="flexCheckDefault">Shipping address is the same as my billing address</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+      <label class="form-check-label" for="flexCheckDefault">Save this information for next time</label>
+    </div>
+    <h1>Payment</h1>
+    <!-- Default radio -->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+      <label class="form-check-label" for="flexRadioDefault1">Credit card</label>
+    </div>
+
+    <!-- Default checked radio -->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+      <label class="form-check-label" for="flexRadioDefault2">Debit card</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+      <label class="form-check-label" for="flexRadioDefault2">PayPal</label>
+    </div>
+    <p>Name on card</p>
+    <!-- Gutter g-1 -->
+    <div class="row g-1">
+      <div class="col">
+        <!-- Name input -->
+        <div class="form-outline">
+          <input type="text" id="form9Example1" class="form-control" />
+          <label class="form-label" for="form9Example1">Full name as displayed on card
+          </label>
+        </div>
+      </div>
+      <div class="col">
+        <p>Credit card number</p>
+        <!-- Email input -->
+        <div class="form-outline">
+          <input type="email" id="form9Example2" class="form-control" />
+          <label class="form-label" for="form9Example2"></label>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <p>Expiration</p>
+
+    <!-- Gutter g-5 -->
+    <div class="row g-5">
+      <div class="col">
+        <!-- Name input -->
+        <div class="form-outline">
+          <input type="text" id="form9Example3" class="form-control" />
+          <label class="form-label" for="form9Example3"></label>
+        </div>
+      </div>
+      <div class="col">
+        <p>CVV</p>
+        <!-- Email input -->
+        <div class="form-outline">
+          <input type="email" id="form9Example4" class="form-control" />
+          <label class="form-label" for="form9Example4"></label>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Continue to checkout</button>
+    <p id="podjetje" class="mb-1">© 2017–2021 Company Name</p>
+    <ul id="lastnosti" class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+
+
+    <!-- Checked checkbox -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
